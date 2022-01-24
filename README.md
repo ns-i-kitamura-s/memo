@@ -32,4 +32,5 @@ Gitリポジトリの新規作成。<br>
 `git merge {ブランチ名}` で現在の作業ブランチに指定されたブランチの更新内容を統合。
 
 ## git pull
-`git fetch`と`git merge`を同時に行う。
+リモートリポジトリの変更を取り込み（`git fetch`と`git merge`を同時に行う）<br>
+`git pull {リポジトリ} ｛ブランチ｝`で実行。
